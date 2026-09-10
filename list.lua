@@ -1,613 +1,156 @@
-local LIST = {
-    {
-        name = "raio",
-        id = "97591643459481"
-    },
-    {
-        name = "galinha",
-        id = "93716838610267"
-    },
-    {
-        name = "ventilador",
-        id = "82734295073558"
-    },
-    {
-        name = "Sukuna",
-        id = "139666537620285"
-    },
-	{
-		name = "Gojo",
-		id = "138283818946733"
-	},
-	{
-		name = "Risada 1",
-		id = "136714652845401"
-	},
-	{
-		name = "Risada 2",
-		id = "136195112064921"
-	},
-	{
-		name = "Risada zoio",
-		id = "93280381776563"
-	},
-	{
-		name = "Risada 3",
-		id = "78806465878205"
-	},
-    
-	{
-		name = "Risada 4",
-		id = "76038831505190"
-	},
-	{
-		name = "Pega Minha marreta",
-		id = "116164900957098"
-	},
-	{
-		name = "Só isso",
-		id = "97243810524027"
-	},
-	{
-		name = "N teve graça",
-		id = "127133189032694"
-	},
-	{
-		name = "Escuro",
-		id = "18870782376"
-	},
-	{
-		name = "Explosão",
-		id = "117610888513112"
-	},
-	{
-		name = "Explosão 2",
-		id = "101006595303605"
-	},
-	{
-		name = "Sus",
-		id = "72012887327238"
-	},
-	{
-		name = "Vó copia o Satoru gojo",
-		id = "140175808370920"
-	},
-	{
-		name = "tu e seco",
-		id = "77058106224586"
-	},
-	{
-		name = "vou te ensinar a respeitar",
-		id = "117685294896990"
-	},
-	{
-		name = "zumbi mini",
-		id = "77774003812009"
-	},
-	{
-		name = "Brasil sil Sil",
-		id = "123466896275673"
-	},
-	{
-		name = "ci fudeu meu amigo",
-		id = "121320468979531"
-	},
-	{
-		name = "fala da o papo",
-		id = "134699681156023"
-	},
-	{
-		name = "ahhhhhhhhh",
-		id = "133065318200768"
-	},
-	{
-		name = "pega o Jack",
-		id = "133582774056892"
-	},
-	{
-		name = "sou bom",
-		id = "129259905468567"
-	},
-	{
-		name = "porque essa diferença?",
-		id = "120370340698141"
-	},
-	{
-		name = "meus ataques",
-		id = "126667346252984"
-	},
-	{
-		name = "você quer marretada do Tor?",
-		id = "102037691397539"
-	},
-	{
-		name = "molestado pelo pai",
-		id = "135334987359228"
-	},
-	{
-		name = "Makita",
-		id = "131862097205793"
-	},
-	{
-		name = "ahhhhhhhhhhhhhh",
-		id = "98660719604777"
-	},
-	{
-		name = "aí minha canela",
-		id = "94187671110604"
-	},
-	{
-		name = "se levanta baiano",
-		id = "129456656692974"
-	},
-	{
-		name = "eu sou o melhor",
-		id = "82406273626578"
-	},
-	{
-		name = "aí meu cu",
-		id = "91931550918967"
-	},
-	{
-		name = "pankapakan",
-		id = "122547522269143"
-	},
-	{
-		name = "Gemido ultra rápido",
-		id = "128863565301778"
-	},
-	{
-		name = "vai g0z@?",
-		id = "116293771329297"
-	},
-	{
-		name = "nao choraxxx",
-		id = "94377077452021"
-	},
-	{
-		name = "G0z33iiii",
-		id = "93462644278510"
-	},
-	{
-		name = "Hommmm ",
-		id = "133135656929513"
-	},
-	{
-		name = "gemido2",
-		id = "92186909873950"
-	},
-	{
-		name = "sus sex",
-		id = "128137573022197"
-	},
-	{
-		name = "Hentai wiaaaaan",
-		id = "88332347208779"
-	},
-	{
-		name = "ai meu c*zinho slowed",
-		id = "71895544093312"
-	},
-	{
-		name = "Loly gemiD0",
-		id = "119277017538197"
-	},
-	{
-		name = "ai poison",
-		id = "115870718113313"
-	},
-	{
-		name = "chegachega SUS",
-		id = "77405864184828"
-	},
-	{
-		name = "uwu",
-		id = "76820720070248"
-	},
-	{
-		name = "ai meu cuzin",
-		id = "130714479795369"
-	},
-	{
-		name = "girl audio 2",
-		id = "84207358477461"
-	},
-	{
-		name = "Hoo ze da manga",
-		id = "106624090319571"
-	},
-	{
-		name = "ai alexandre de moraes",
-		id = "107261471941570"
-	},
-	{
-		name = "haaii meme",
-		id = "120006672159037"
-	},
-	{
-		name = "GoGogo gogogo",
-		id = "103262503950995"
-	},
-	{
-		name = "Toma jack",
-		id = "132603645477541"
-	},
-	{
-		name = "Toma jackV2",
-		id = "100446887985203"
-	},
-	{
-		name = "Toma jack no sol quente",
-		id = "97476487963273"
-	},
-	{
-		name = "ifood",
-		id = "133843750864059"
-	},
-	{
-		name = "pelo geito ela ta querendo ram",
-		id = "94395705857835"
-	},
-	{
-		name = "lula vai todo mundo",
-		id = "136804576009416"
-	},
-	{
-		name = "coringa",
-		id = "84663543883498"
-	},
-	{
-		name = "shoope",
-		id = "8747441609"
-	},
-	{
-		name = "quenojo",
-		id = "103440368630269"
-	},
-	{
-		name = "sai dai lava prato",
-		id = "101232400175829"
-	},
-	{
-		name = "se e loko numconpeça",
-		id = "78442476709262"
-	},
-	{
-		name = "mita sequer que eu too uma",
-		id = "94889439372168"
-	},
-	{
-		name = "Deita aqui eu mandei vc deitar sirens",
-		id = "100291188941582"
-	},
-	{
-		name = "miau",
-		id = "131804436682424"
-	},
-	{
-		name = "skibidi",
-		id = "128771670035179"
-	},
-	{
-		name = "BIRULEIBI",
-		id = "121569761604968"
-	},
-	{
-		name = "biseabesjnjkasnakjsndjkafb",
-		id = "133106998846260"
-	},
-	{
-		name = "vai corinthians!!....",
-		id = "127012936767471"
-	},
-	{
-		name = "my sigman",
-		id = "103431815659907"
-	},
-	{
-		name = "mama",
-		id = "106850066985594"
-	},
-	{
-		name = "OH MY GOD",
-		id = "73349649774476"
-	},
-	{
-		name = "aahhh plankton meme",
-		id = "95982351322190"
-	},
-	{
-		name = "CHINABOY",
-		id = "84403553163931"
-	},
-	{
-		name = "PASTOR MIRIM E A LÍNGUA DOS ANJOS",
-		id = "71153532555470"
-	},
-	{
-		name = "Sai d3sgraç@",
-		id = "106973692977609"
-	},
-	{
-		name = "opa salve tudo bem?",
-		id = "80870678096428"
-	},
-	{
-		name = "OLHA O CARRO DO DANONE",
-		id = "110493863773948"
-	},
-	{
-		name = "Nãoooo, Nãoooo, Nãoooo!!!!!",
-		id = "95825536480898"
-	},
-	{
-		name = "UM PÉ DE SIRIGUELA KK",
-		id = "112804043442210"
-	},
-	{
-		name = "e o carro da pamonha",
-		id = "94951629392683"
-	},
-	{
-		name = "BOM DIAAAAAAAAAA",
-		id = "136579844511260"
-	},
-	{
-		name = "ai-meu-chiclete",
-		id = "92911732806153"
-	},
-	{
-		name = "posso te ligar ou tua mulher...",
-		id = "103211341252816"
-	},
-	{
-		name = "Boa chi joga muito cara",
-		id = "110707564387669"
-	},
-	{
-		name = "Oqueee meme",
-		id = "120092799810101"
-	},
-	{
-		name = "kkk muito fei",
-		id = "79241074803021"
-	},
-	{
-		name = "lula cade o ze gotinha",
-		id = "86012585992725"
-	},
-	{
-		name = "morreu",
-		id = "8872409975"
-	},
-	{
-		name = "a-pia-ta-cheia-de-louca",
-		id = "98076927129047"
-	},
-	{
-		name = "Mahito killSong",
-		id = "128669424001766"
-	},
-	{
-		name = "Sucumba",
-		id = "7946300950"
-	},
-	{
-		name = "nem clicou o thurzin",
-		id = "84428355313544"
-	},
-	{
-		name = "fiui OLHA MENSAGEM",
-		id = "121668429878811"
-	},
-	{
-		name = "tooomeee",
-		id = "128319664118768"
-	},
-	{
-		name = "risada de ladrao",
-		id = "133065882609605"
-	},
-	{
-		name = "E o PIX nada ainda",
-		id = "113831443375212"
-	},
-	{
-		name = "Vo nada vo nada",
-		id = "89093085290586"
-	},
-	{
-		name = "Eli gosta",
-		id = "105012436535315"
-	},
-	{
-		name = "um cavalo de tres pernas?",
-		id = "8164241439"
-	},
-	{
-		name = "voces sao um bado de fdp",
-		id = "8232773326"
-	},
-	{
-		name = "HAHA TROLLEI ATÉ VOCÊ",
-		id = "7021794555"
-	},
-	{
-		name = "Calaboca Kenga",
-		id = "86494561679259"
-	},
-	{
-		name = "alvincut",
-		id = "88788640194373"
-	},
-	{
-		name = "e a risada faz como?",
-		id = "140713372459057"
-	},
-	{
-		name = "voce deve se m@t4",
-		id = "100227426848009"
-	},
-	{
-		name = "receba",
-		id = "94142662616215"
-	},
-	{
-		name = "UUIIII",
-		id = "73210569653520"
-	},
-	{
-		name = "sai",
-		id = "121169949217007"
-	},
-	{
-		name = "risada boa dms",
-		id = "127589011971759"
-	},
-	{
-		name = "vacilo perna de pau",
-		id = "106809680656199"
-	},
-	{
-		name = "gomo gomo no!!!",
-		id = "137067472449625"
-	},
-	{
-		name = "arroto",
-		id = "140203378050178"
-	},
-	{
-		name = "iraaaa",
-		id = "136752451575091"
-	},
-	{
-		name = "não fica se achando muito não",
-		id = "101588606280167"
-	},
-	{
-		name = "WhatsApp notificaçãoV1",
-		id = "107004225739474"
-	},
-	{
-		name = "WhatsApp notificaçãoV2",
-		id = "18850631582"
-	},
-	{
-		name = "SamsungV1",
-		id = "123767635061073"
-	},
-	{
-		name = "SamsungV2",
-		id = "96579234730244"
-	},
-	{
-		name = "Shiiii",
-		id = "120566727202986"
-	},
-	{
-		name = "ai_tomaa miku",
-		id = "139770074770361"
-	},
-	{
-		name = "Miku Miku",
-		id = "72812231495047"
-	},
-	{
-		name = "kuru_kuru",
-		id = "122465710753374"
-	},
-	{
-		name = "PM ROCAM",
-		id = "96161547081609"
-	},
-	{
-		name = "cavalo!!",
-		id = "78871573440184"
-	},
-	{
-		name = "deixa os garoto brinca",
-		id = "80291355054807"
-	},
-	{
-		name = "flamengo",
-		id = "137774355552052"
-	},
-	{
-		name = "sai do mei satnas",
-		id = "127944706557246"
-	},
-	{
-		name = "namoral agora e a hora",
-		id = "120677947987369"
-	},
-	{
-		name = "n pode me chutar pq seu celebro e burro",
-		id = "82284055473737"
-	},
-	{
-		name = "vc ta fudido vou te pegar",
-		id = "120214772725166"
-	},
-	{
-		name = "deley",
-		id = "102906880476838"
-	},
-	{
-		name = "Tu e um beta",
-		id = "130233956349541"
-	},
-	{
-		name = "Porfavor n tira eu nao",
-		id = "85321374020324"
-	},
-	{
-		name = "Olá beleza vc pode me dà muitos",
-		id = "74235334504693"
-	},
-	{
-		name = "Discord sus",
-		id = "122662798976905"
-	},
-	{
-		name = "rojao apito",
-		id = "6549021381"
-	},
-	{
-		name = "off",
-		id = "1778829098"
-	},
-	{
-		name = "Kazuma kazuma",
-		id = "127954653962405"
-	},
-	{
-		name = "sometourado",
-		id = "123592956882621"
-	},
-	{
-		name = "Estouradoespad",
-		id = "136179020015211"
-	},
-	{
-		name = "Alaku bommm",
-		id = "110796593805268"
-	},
-	{
-		name = "busss",
-		id = "139841197791567"
-	},
-	{
-		name = "Estourado wItb",
-		id = "137478052262430"
-	},
-	{
-		name = "sla",
-		id = "116672405522828"
-	},
-	{
-		name = "HA HA HA",
-		id = "138236682866721"
-	}
+local Music = {
+	["raio"] = "97591643459481",
+	["galinha"] = "93716838610267",
+	["ventilador"] = "82734295073558",
+	["Sukuna"] = "139666537620285",
+	["Gojo"] = "138283818946733",
+	["Risada 1"] = "136714652845401",
+	["Risada 2"] = "136195112064921",
+	["Risada zoio"] = "93280381776563",
+	["Risada 3"] = "78806465878205",
+	["Risada 4"] = "76038831505190",
+	["Pega Minha marreta"] = "116164900957098",
+	["Só isso"] = "97243810524027",
+	["N teve graça"] = "127133189032694",
+	["Escuro"] = "18870782376",
+	["Explosão"] = "117610888513112",
+	["Explosão 2"] = "101006595303605",
+	["Sus"] = "72012887327238",
+	["Vó copia o Satoru gojo"] = "140175808370920",
+	["tu e seco"] = "77058106224586",
+	["vou te ensinar a respeitar"] = "117685294896990",
+	["zumbi mini"] = "77774003812009",
+	["Brasil sil Sil"] = "123466896275673",
+	["ci fudeu meu amigo"] = "121320468979531",
+	["fala da o papo"] = "134699681156023",
+	["ahhhhhhhhh"] = "133065318200768",
+	["pega o Jack"] = "133582774056892",
+	["sou bom"] = "129259905468567",
+	["porque essa diferença?"] = "120370340698141",
+	["meus ataques"] = "126667346252984",
+	["você quer marretada do Tor?"] = "102037691397539",
+	["molestado pelo pai"] = "135334987359228",
+	["Makita"] = "131862097205793",
+	["ahhhhhhhhhhhhhh"] = "98660719604777",
+	["aí minha canela"] = "94187671110604",
+	["se levanta baiano"] = "129456656692974",
+	["eu sou o melhor"] = "82406273626578",
+	["aí meu cu"] = "91931550918967",
+	["pankapakan"] = "122547522269143",
+	["Gemido ultra rápido"] = "128863565301778",
+	["vai g0z@?"] = "116293771329297",
+	["nao choraxxx"] = "94377077452021",
+	["G0z33iiii"] = "93462644278510",
+	["Hommmm "] = "133135656929513",
+	["gemido2"] = "92186909873950",
+	["sus sex"] = "128137573022197",
+	["Hentai wiaaaaan"] = "88332347208779",
+	["ai meu c*zinho slowed"] = "71895544093312",
+	["Loly gemiD0"] = "119277017538197",
+	["ai poison"] = "115870718113313",
+	["chegachega SUS"] = "77405864184828",
+	["uwu"] = "76820720070248",
+	["ai meu cuzin"] = "130714479795369",
+	["girl audio 2"] = "84207358477461",
+	["Hoo ze da manga"] = "106624090319571",
+	["ai alexandre de moraes"] = "107261471941570",
+	["haaii meme"] = "120006672159037",
+	["GoGogo gogogo"] = "103262503950995",
+	["Toma jack"] = "132603645477541",
+	["Toma jackV2"] = "100446887985203",
+	["Toma jack no sol quente"] = "97476487963273",
+	["ifood"] = "133843750864059",
+	["pelo geito ela ta querendo ram"] = "94395705857835",
+	["lula vai todo mundo"] = "136804576009416",
+	["coringa"] = "84663543883498",
+	["shoope"] = "8747441609",
+	["quenojo"] = "103440368630269",
+	["sai dai lava prato"] = "101232400175829",
+	["se e loko numconpeça"] = "78442476709262",
+	["mita sequer que eu too uma"] = "94889439372168",
+	["Deita aqui eu mandei vc deitar sirens"] = "100291188941582",
+	["miau"] = "131804436682424",
+	["skibidi"] = "128771670035179",
+	["BIRULEIBI"] = "121569761604968",
+	["biseabesjnjkasnakjsndjkafb"] = "133106998846260",
+	["vai corinthians!!...."] = "127012936767471",
+	["my sigman"] = "103431815659907",
+	["mama"] = "106850066985594",
+	["OH MY GOD"] = "73349649774476",
+	["aahhh plankton meme"] = "95982351322190",
+	["CHINABOY"] = "84403553163931",
+	["PASTOR MIRIM E A LÍNGUA DOS ANJOS"] = "71153532555470",
+	["Sai d3sgraç@"] = "106973692977609",
+	["opa salve tudo bem?"] = "80870678096428",
+	["OLHA O CARRO DO DANONE"] = "110493863773948",
+	["Nãoooo, Nãoooo, Nãoooo!!!!!"] = "95825536480898",
+	["UM PÉ DE SIRIGUELA KK"] = "112804043442210",
+	["e o carro da pamonha"] = "94951629392683",
+	["BOM DIAAAAAAAAAA"] = "136579844511260",
+	["ai-meu-chiclete"] = "92911732806153",
+	["posso te ligar ou tua mulher..."] = "103211341252816",
+	["Boa chi joga muito cara"] = "110707564387669",
+	["Oqueee meme"] = "120092799810101",
+	["kkk muito fei"] = "79241074803021",
+	["lula cade o ze gotinha"] = "86012585992725",
+	["morreu"] = "8872409975",
+	["a-pia-ta-cheia-de-louca"] = "98076927129047",
+	["Mahito killSong"] = "128669424001766",
+	["Sucumba"] = "7946300950",
+	["nem clicou o thurzin"] = "84428355313544",
+	["fiui OLHA MENSAGEM"] = "121668429878811",
+	["tooomeee"] = "128319664118768",
+	["risada de ladrao"] = "133065882609605",
+	["E o PIX nada ainda"] = "113831443375212",
+	["Vo nada vo nada"] = "89093085290586",
+	["Eli gosta"] = "105012436535315",
+	["um cavalo de tres pernas?"] = "8164241439",
+	["voces sao um bado de fdp"] = "8232773326",
+	["HAHA TROLLEI ATÉ VOCÊ"] = "7021794555",
+	["Calaboca Kenga"] = "86494561679259",
+	["alvincut"] = "88788640194373",
+	["e a risada faz como?"] = "140713372459057",
+	["voce deve se m@t4"] = "100227426848009",
+	["receba"] = "94142662616215",
+	["UUIIII"] = "73210569653520",
+	["sai"] = "121169949217007",
+	["risada boa dms"] = "127589011971759",
+	["vacilo perna de pau"] = "106809680656199",
+	["gomo gomo no!!!"] = "137067472449625",
+	["arroto"] = "140203378050178",
+	["iraaaa"] = "136752451575091",
+	["não fica se achando muito não"] = "101588606280167",
+	["WhatsApp notificaçãoV1"] = "107004225739474",
+	["WhatsApp notificaçãoV2"] = "18850631582",
+	["SamsungV1"] = "123767635061073",
+	["SamsungV2"] = "96579234730244",
+	["Shiiii"] = "120566727202986",
+	["ai_tomaa miku"] = "139770074770361",
+	["Miku Miku"] = "72812231495047",
+	["kuru_kuru"] = "122465710753374",
+	["PM ROCAM"] = "96161547081609",
+	["cavalo!!"] = "78871573440184",
+	["deixa os garoto brinca"] = "80291355054807",
+	["flamengo"] = "137774355552052",
+	["sai do mei satnas"] = "127944706557246",
+	["namoral agora e a hora"] = "120677947987369",
+	["n pode me chutar pq seu celebro e burro"] = "82284055473737",
+	["vc ta fudido vou te pegar"] = "120214772725166",
+	["deley"] = "102906880476838",
+	["Tu e um beta"] = "130233956349541",
+	["Porfavor n tira eu nao"] = "85321374020324",
+	["Olá beleza vc pode me dà muitos"] = "74235334504693",
+	["Discord sus"] = "122662798976905",
+	["rojao apito"] = "6549021381",
+	["off"] = "1778829098",
+	["Kazuma kazuma"] = "127954653962405",
+	["sometourado"] = "123592956882621",
+	["Estouradoespad"] = "136179020015211",
+	["Alaku bommm"] = "110796593805268",
+	["busss"] = "139841197791567",
+	["Estourado wItb"] = "137478052262430",
+	["sla"] = "116672405522828",
+	["HA HA HA"] = "138236682866721"
 }
 
-return LIST
+return Music
